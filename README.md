@@ -7,7 +7,7 @@
 
 This animate module was developed to make producing high-quality animations with matplotlib easier. It works by exporting a series of images as png files before combining them with ffmpeg.  This is an intensive operation, but worth it for the quality of the results.  
 
-The module has two main functions, a 'savefigures' command which automatically saves a grid of figures as png files and a 'render' command which uses the subprocess module to act as a thin wrapper over ffmpeg. The render function has several features, that bear noting.  First, it automatically sets reasonable defaults for conversion into several formats, including 'mp4' files (most useful in google slides or powerpoint or slack), 'gif' files (useful for web development' and other formats.  It atuomatially handles codex choice and pallete generation for video and gif formats respectively.  The choices avaialbe for output_formats are:
+The module has two main functions, a **savefigures** command which automatically saves a grid of figures as png files and a **render** command which uses the subprocess module to act as a thin wrapper over ffmpeg. The render function has several features, that bear noting.  First, it automatically sets reasonable defaults for conversion into several formats, including 'mp4' files (most useful in google slides or powerpoint or slack), 'gif' files (useful for web development' and other formats.  It atuomatially handles codex choice and pallete generation for video and gif formats respectively.  The choices avaialbe for output_formats are:
 
 1. 'gif'
 2. 'avi'
