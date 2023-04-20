@@ -1,6 +1,7 @@
 # animate
-A place for my animate scripts
 
+
+<img src="https://github.com/r-zachary-murray/animate/blob/main/animation.gif" width="400" height="400" />
 
 ## Documentation:
 
